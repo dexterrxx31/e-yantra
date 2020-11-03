@@ -1,0 +1,13 @@
+#config_iot_ros.yaml
+#IoT Configuration
+config_iot:
+  mqtt:
+    server_url: "broker.mqttdashboard.com"
+    # server_url: "test.mosquitto.org"
+    server_port: 1883
+    topic_sub: "eyrc/xYzqLm/iot_to_ros"
+    topic_pub: "eyrc/xYzqLm/ros_to_iot"
+    qos: 0
+
+    sub_cb_ros_topic: "/ros_iot_bridge/mqtt/sub"
+    
